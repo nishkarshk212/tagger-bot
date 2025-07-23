@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  tagger-bot:
+    build: .
+    restart: unless-stopped
+    volumes:
+      - ./user_tags.json:/app/user_tags.json
