@@ -5,4 +5,4 @@ COPY . .
 
 RUN pip install --no-cache-dir -r requirements.txt
 
-CMD ["python", "tagger_bot.py"]
+CMD ["python", "Anshika.py"]
